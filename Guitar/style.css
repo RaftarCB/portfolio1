@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+body{
+	font-family: "Playfair Display", serif;
+  margin:0;
+}
+
+p{
+	font-family: "Bungee Spice", sans-serif;
+}
+/* Website Links except the nav */
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+nav ul{
+ list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+  }
+  nav a:link{
+    color:purple;
+  }
+nav a:visited{
+    color:purple;
+  }
+nav a:hover{
+    color:black;
+  }
+nav a:active{
+    color:violet;
+  }
+footer{
+    border-top: purple 3px solid;
+    text-align:center;
+  }
+h1{
+    
+    background-color:;
+  }
+  
+h1{
+      font-family: "Racing Sans One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align:center;
+      font-size:4em;
+    }
+
+nav{
+      background: rgb(219,219,219);
+      background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(116,111,111,0.9458284778755253) 100%);
+      text-align:center;
+      letter-spacing: .2em;
+      padding: 8px;
+      border: 5px inset gray;
+      font-size: 1.5em;
+      
+      
+    }
+footer{
+      border-top: black 3px solid;
+      text-align: center;
+    }
+h2{
+      font-size: 3em;
+    }
+
+main{
+      max-width: 1000px;
+      margin:20px auto;
+      padding:10px;
+    }
+
+.logo{
+        max-width: 275px;
+        height:auto;
+        display:block;
+        margin: 0 auto;
+        padding:20px;
+
+
+    }
+
+#home-hero{
+    background-image: url(images/guitars.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home-hero h1{
+    text-align: center;
+    color:black;
+    text-shadow:2px 2px 2px yellow;
+    margin: 0;
+    padding:10px;
+    background-color: rgb(242, 242, 242);
+}
+
+h2{
+    background-color:;
+        background: #d4dbd1;
+background: linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+background: -webkit-linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+background: -moz-linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+}
+
+table {
+  border: 5px solid black;
+  margin:0 auto;
+  border-collapse:collapse;
+}
+td{
+    border: 1px solid #dddddd;
+    padding:10px;
+    background-color: ;
+}
+
+label{
+    float: left;
+    width: 8em;
+    padding-right: 8em;
+
+}
+
+input, textarea{
+    margin-bottom: 1em;
+    display: block;
+
+}
+
+input[type=submit]{
+    display: block;
+    background-color: grey;
+}
+form{
+    border: 5px solid black;
+    max-width: 200px;
+    padding: 10px;
+}
+
+th{
+    background-color:gray ;
+    border-bottom: 5px solid black;
+
+}
+.picture2{
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.picStairway{
+    text-align: center;
+    font-size: 25px;
+    background-color:;
+        background: #d4dbd1;
+background: linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+background: -webkit-linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+background: -moz-linear-gradient(359deg,#d4dbd1 0%, #a6ffc2 80%);
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.textabout{
+
+    font-size: 30px;
+    
+}
+
+
+
+@media only screen and(max-width: 1024px) {
+        h1{
+            font-size:2em;
+        }
+  }
+  @media only screen and(max-width: 768) {
+        h1{
+            font-size:1.5em;
+         }
+    }
