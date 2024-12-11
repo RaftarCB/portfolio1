@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+body{
+	font-family: "Playfair Display", serif;
+  margin:0;
+}
+
+p{
+	font-family: "Bungee Spice", sans-serif;
+}
+/* Website Links except the nav */
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+nav ul{
+ list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+  }
+  nav a:link{
+    color:purple;
+}
+nav a:visited{
+    color:purple;
+}
+nav a:hover{
+    color:black;
+}
+nav a:active{
+    color:violet;
+}
+footer{
+    border-top: purple 3px solid;
+    text-align:center;
+    background-color: #d2a679;
+}
+h1{
+    font-size:4em;
+}
+@media only screen and(max-width: 1024px) {
+    h1{
+    font-size:2em;
+    }
+}
+@media only screen and(max-width: 768) {
+    h1{
+      font-size:1.5em;
+      color: white;
+    }
+}
+h1{
+      font-family: "Racing Sans One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align:center;
+
+}
+
+nav{
+      background-color: #86592d;
+      text-align:center;
+      letter-spacing: .2em;
+      padding: 8px;
+      border: 5px inset gray;
+      font-size: 1.5em;
+      color: white;
+      
+}
+
+h2{
+      font-size: 3em;
+}
+main{
+      max-width: 1200px;
+      margin:20px auto;
+      padding:10px;
+}
+
+col-sm-12{
+
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+
+}
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.copyright{
+
+    text-align: center;
+}
